@@ -3,6 +3,8 @@ import Navbar from "./components/navbar";
 import Landingpage from "./components/Landingpage";
 import Marquee from "./components/Marquee";
 import About from "./components/About";
+import Eyes from "./components/Eyes";
+import Featured from "./components/Featured";
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <Landingpage/>
       <Marquee/>
       <About/>
+      <Eyes/>
+      <Featured/>
     </div>
   );
 }
