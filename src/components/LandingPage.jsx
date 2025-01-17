@@ -1,18 +1,20 @@
 import React from "react";
 import arrow from "../assets/arrow.svg";
 import { FaArrowUpLong } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 function Landingpage() {
+  
   return (
     <>
-      <div className="w-full  bg-zinc-900 pt-1  ">
+      <div data-control data-scroll-section data-scroll-speed="-.8" className="w-full  bg-zinc-900 pt-1  ">
         <div className="textStructure mt-52  px-20 ">
           {["WE CREATE", "EYE OPENING", "PRESENTATIONS"].map((item, index) => {
             return (
               <div className="masker">
                 <div className="w-fit flex items-end overflow-hidden">
                   {index === 1 && (
-                    <div className="w-[9vw] ml-3 rounded-md mr-2 h-[5.4vw] relative -top-[0.9vw]   bg-green-500"></div>
+                    <motion.div initial={{width:0}} animate={{width:"9vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration:1}} className="w-[9vw] ml-3 rounded-md mr-2 h-[5.4vw] relative -top-[0.9vw]   bg-green-500"></motion.div>
                   )}
                   <h1
                    

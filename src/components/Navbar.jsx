@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/logo-white.svg";
 const navbar = () => {
-  return (
+  return ( 
     <div className='w-full fixed z-[999]  px-20 py-9 text-white font-["Neue Montreal"] flex justify-between items-center'>
       <div className="logo ">
         <img className="" src={logo} alt="z" />

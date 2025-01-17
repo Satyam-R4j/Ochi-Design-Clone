@@ -19,7 +19,7 @@ function Eyes() {
 
   return (
     <div className="eyes w-full h-screen overflow-hidden">
-      <div className="w-full relative  h-screen   ">
+      <div data-scroll data-scroll-speed="-.5" className="w-full relative  h-screen   ">
         <img
           className="items-center justify-center w-full h-screen object-cover"
           src={eyeImg}
